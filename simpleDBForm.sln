@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "simpleDBForm", "simpleDBForm.vbproj", "{9B6BEF76-DAA4-4E5A-9F9B-01725A2C5C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6BEF76-DAA4-4E5A-9F9B-01725A2C5C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6BEF76-DAA4-4E5A-9F9B-01725A2C5C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6BEF76-DAA4-4E5A-9F9B-01725A2C5C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6BEF76-DAA4-4E5A-9F9B-01725A2C5C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1735B58F-67A9-4401-87E5-564B28052D6C}
+	EndGlobalSection
+EndGlobal

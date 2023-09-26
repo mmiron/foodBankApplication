@@ -5,9 +5,10 @@ Public Class dataStore
     Private conn As New ADODB.Connection()
 
     Public Sub New()
-        Dim projectFolder = System.IO.Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName
+        Dim projectFolder = Environment.CurrentDirectory 'System.IO.Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName
         Dim databaseFile = "database.mdb"
         Dim connectionString = "Driver={Microsoft Access Driver (*.mdb)};DBQ=" & databaseFile & ";DefaultDir=" & projectFolder & ";Uid=Admin;Pwd=;"
+        MsgBox(connectionString)
         conn.ConnectionString = connectionString ' "Provider=Microsoft.Jet.OLEDB.4.0;Data Source='" & st & "';Persist Security Info=True;Jet OLEDB:Database Password="
         conn.Open()
     End Sub

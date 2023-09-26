@@ -74,9 +74,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.simpleDBForm.My.MySettings
+        Friend ReadOnly Property Settings() As Global.FoodBankApp.My.MySettings
             Get
-                Return Global.simpleDBForm.My.MySettings.Default
+                Return Global.FoodBankApp.My.MySettings.Default
             End Get
         End Property
     End Module
